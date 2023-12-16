@@ -1,0 +1,29 @@
+.font{
+    font-family: Raleway;
+}
+
+.Helpcontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.helpcontainer2{
+ width: 70%;
+}
+.imgHelpService{
+    height: 300px;
+    width: 450px;
+}
+
+.gap{
+    gap: 150px;
+}
+
+.colorGreen{
+    color: #1bbd36;
+}
+.margin{
+margin: 30px;
+}

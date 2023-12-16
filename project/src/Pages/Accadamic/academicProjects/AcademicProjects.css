@@ -1,0 +1,54 @@
+.background-container {
+  background-color: whitesmoke;
+  padding-top: 40px;
+  font-family: Helvetica, sans-serif;
+  color: #262525;
+}
+
+.half-heading {
+    color:#262525;
+}
+
+.academic-heading {
+    color:#1bbd64;
+}
+
+.top-heading {
+  color: Gray;
+}
+
+.heading {
+  color: #1bbd64;
+  padding: 15px;
+}
+
+.heading-underline {
+  border: none;
+  background-color: grey;
+  height: 1px;
+  margin: 20px;
+}
+
+.image {
+  height: 550px;
+  width: 500px;
+}
+
+.info {
+  font-size: 14px;
+  padding-top: 18px;
+  text-align: left;
+}
+
+.project-heading {
+  text-align: center;
+}
+
+.icon-container {
+  padding-top: 70px;
+}
+
+.like-icon {
+  height: 55px;
+  color: #1bbd64;
+}

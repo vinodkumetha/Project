@@ -1,0 +1,55 @@
+/* Default card styles */
+.card {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Babel effect - modify as needed */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), );
+  z-index: -1;
+  transition: transform 0.3s ease-out;
+}
+
+/* Hover effect - slightly scale and change the shadow on hover */
+.card:hover::before {
+  transform: translate(-5%, -5%);
+}
+
+.card:hover {
+  border: 2px solid #1bbd36;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px 5px #1bbd36;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  color: white;
+  font-family: cursive;
+}
+
+/* Responsive styles for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .card {
+    /* Modify card styles for smaller screens */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Modify hover effect for smaller screens */
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    color: white;
+  }
+}

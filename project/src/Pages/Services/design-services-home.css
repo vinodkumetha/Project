@@ -1,0 +1,46 @@
+.design-container{
+    max-width: 100%; /* Change to allow responsiveness */
+}
+
+.design-card{
+  margin:5%;
+  background-color: white;
+  padding: 10px;
+}
+
+.design-card-img{
+  width: 100%;
+}
+.title{font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+.design-card-body{
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 30;
+  text-align: center;
+  justify-content: center;
+  color: black;
+}
+.design-card-subtitle{
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+.design-card-text{
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+ color: black;
+}

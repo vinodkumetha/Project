@@ -1,0 +1,73 @@
+.domain-page-container {
+  background-color: whitesmoke;
+  padding-top: 100px;
+  font-family: Helvetica, sans-serif;
+  color: #262525;
+  padding: 110px;
+}
+
+.rocket-container {
+  width: 270px;
+  text-align: center;
+}
+
+.rocket-icon {
+  color: #1bbd64;
+  height: 55px;
+}
+
+.spl-dom {
+  color: grey;
+}
+
+.domain-images {
+  text-align: start;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.card {
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card:hover img {
+  transform: scale(1);
+  margin-top: -1px;
+}
+
+.card:hover h6 {
+  color: #1bbd64;
+  transition: -0.3s;
+  text-decoration: underline #262525;
+}
+
+.card-desc {
+  text-align: start;
+  padding: 10px;
+  padding-top: 10px;
+  line-height: 2;
+}
+
+.card-heading {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-paragraph {
+  font-size: 12px;
+}
+
+.vertical-line {
+  border-left: #262525 solid;
+}
+
+.heading-underline {
+  border: none;
+  background-color: grey;
+  height: 1px;
+  margin: 20px;
+}

@@ -1,0 +1,42 @@
+ .super-card-container {
+    background-color: #17142b;
+    background-color: cover;
+    height: 370px;
+    width: 100%;
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+}
+
+ 
+
+.bg-container{
+    padding: auto;
+   
+}
+
+.who-button {
+    background-color: #205aed;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    
+    text-decoration: none;
+    
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}

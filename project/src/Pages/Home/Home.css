@@ -1,0 +1,11 @@
+.Home-card {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .Home-card:hover {
+    background-color: black;
+    color: white;
+  }
+  
